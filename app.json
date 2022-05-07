@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Weather Forecast CSC 400",
+    "slug": "Weather-Forecast-CSC-400",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/appImage.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {       
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.olivae1.WeatherForecastCSC400"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
